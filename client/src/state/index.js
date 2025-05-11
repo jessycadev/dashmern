@@ -8,10 +8,10 @@ const initialState = {
 
 export const globalSlice = createSlice({
     name: "global",
-    inicialState,
+    initialState,
     reducers: {
         setMode: (state) => {
-            state.mode = state.mode === 'light' ? 'dark' : 'light';
+            state.mode = state.mode === 'light' ? "dark" : 'light';
         }
     }
 })
